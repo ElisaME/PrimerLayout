@@ -1,0 +1,32 @@
+.container{
+	width: 700px;
+	margin: 0 auto;
+}
+li{
+	display: inline-block;
+	list-style: none;
+	border-right: 2px solid black;
+	padding: 5px;
+}
+hr{
+	background-color: black;
+}
+img{
+	max-width: 700px;
+}
+p{
+	text-align: center;
+}
+.lineaSeccion{
+	width: 20%;
+}
+.inline{
+	display: inline;
+	margin:10px;
+	position: relative;
+}
+.left{
+	margin-left: 0px;
+	width: 20%;
+	height: 3px;
+}
