@@ -2,24 +2,50 @@
 	width: 700px;
 	margin: 0 auto;
 }
+.borde{
+	border:1px solid black;
+	padding: 25px;
+}
+/*Menu*/
 li{
+	font-size: 20px;
 	display: inline-block;
 	list-style: none;
-	border-right: 2px solid black;
-	padding: 5px;
+	padding: 5px 30px;
 }
-hr{
-	background-color: black;
-}
+/*ImagenGrupal*/
 img{
 	max-width: 700px;
 }
-p{
-	text-align: center;
+/*Lineas*/
+hr{
+	background-color: black;
+}
+.Vertical{
+	border-right: 1px solid black;
 }
 .lineaSeccion{
 	width: 20%;
 }
+/*Texto en imagenes*/
+.caption{
+	width: 100%;
+	height: auto;
+	display: block;
+	padding: 0;
+	border:0;
+}
+.caption::before{
+	content: attr(title);
+	position: absolute;
+	color: white;
+	font-size: 16px;
+	position: 5px;
+	right: 10px;
+	bottom: 10px;
+	z-index: 1;
+}
+/*Posicion*/
 .inline{
 	display: inline;
 	margin:10px;
@@ -30,3 +56,34 @@ p{
 	width: 20%;
 	height: 3px;
 }
+.centrar{
+	text-align: center;
+}
+.circular{
+	border-radius: 150px;
+}
+/*Habilidades*/
+.Habilidad{
+	height: 30px;
+	background-color: #BDBDBD;
+	padding: 10px;
+	margin-top: 10px;
+	font-size: 20px;
+	color: white;
+}
+.Hab1{
+	width: 500px;
+}
+.Hab2{
+	width: 400px;
+}
+.Hab3{
+	width: 300px;
+}
+/*Portafolio*/
+.Portafolio{
+	max-width: 200px;
+	display: inline-block;
+	margin: 5px;
+}
+
